@@ -167,9 +167,35 @@ a:link{
 
 #div-skills-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 970px;
-    height: 200px;
     padding: 1rem;
     background-color: #06A763;
+    box-shadow: 0 0 0.5rem grey;
+}
+
+.skills-content{
+    width: 40%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+.skills-content h4{
+    font-size: 1.3rem;
+    text-align: center;
+    text-shadow: rgb(97, 97, 97) 2px 2px 4px;
+    margin-bottom: 1.7rem;
+}
+
+.skills-content h5{
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.skill-bar{
+    width: 100%;
+    height: 5px;
+    background-color: #05985A;
+    margin-bottom: 1rem;
 }
