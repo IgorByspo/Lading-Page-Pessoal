@@ -58,9 +58,15 @@ header img{
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 25% 100%);
 }
 
-#social-media img{
+.img-social{
     margin-right: 20px;
     width: 40px;
+}
+
+.img-social:hover{
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px #616161;
+
 }
 
 #div-info{
@@ -182,6 +188,7 @@ a:link{
 }
 
 .skills-content h4{
+    margin-top: 1.4rem;
     font-size: 1.3rem;
     text-align: center;
     text-shadow: rgb(97, 97, 97) 2px 2px 4px;
@@ -189,6 +196,8 @@ a:link{
 }
 
 .skills-content h5{
+    display: flex;
+    justify-content: space-between;
     font-size: 1rem;
     margin-bottom: 0.3rem;
 }
@@ -198,4 +207,76 @@ a:link{
     height: 5px;
     background-color: #05985A;
     margin-bottom: 1rem;
+}
+
+#html-bar{
+    background-color: white;
+    height: 100%;
+    width: 90%;
+}
+
+#css-bar{
+    background-color: white;
+    height: 100%;
+    width: 70%;
+}
+
+#JavaScript-bar{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+}
+
+#scrum-bar{
+    background-color: white;
+    height: 100%;
+    width: 80%;
+}
+
+#github-bar{
+    background-color: white;
+    height: 100%;
+    width: 40%;
+}
+
+#office-bar{
+    background-color: white;
+    height: 100%;
+    width: 70%;
+}
+
+#disciplina-bar{
+    background-color: white;
+    height: 100%;
+    width: 95%;
+}
+
+#comunicacao-bar{
+    background-color: white;
+    height: 100%;
+    width: 85%;
+}
+
+#trabEquipe-bar{
+    background-color: white;
+    height: 100%;
+    width: 85%;
+}
+
+#proatividade-bar{
+    background-color: white;
+    height: 100%;
+    width: 80%;
+}
+
+#disposicao-bar{
+    background-color: white;
+    height: 100%;
+    width: 90%;
+}
+
+#pontualidade-bar{
+    background-color: white;
+    height: 100%;
+    width: 95%;
 }
