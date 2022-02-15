@@ -53,7 +53,7 @@ header img{
 
 #img-profile img{
     float: right;
-    height: 400px;
+    height: 420px;
     transform: translateY(-95%);
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 25% 100%);
 }
@@ -331,4 +331,183 @@ a:link{
 .certi-div h4 img{
     width: 50px;
     vertical-align: middle;
+}
+
+@media screen and (max-width: 920px) {
+
+
+    #banner-header{
+        width: 100%;
+        height: auto;
+    }
+
+    #div-principal{
+        width: 750px;
+    }
+
+    #div-info{
+        width: 750px;
+    }
+
+    .div-title{
+        width: 750px;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    #education .container{
+        width: 750px;
+        margin: auto;
+    }
+
+    .div-content{
+        width: 330px;
+    }
+
+    #skills .container{
+        width: 750px;
+        margin: auto;
+    }
+
+    #div-skills-content{
+        width: 100%;
+    }
+
+    #portifolio .container{
+        width: 750px;
+        margin: auto;
+    }
+
+    #div-portifolio-content{
+        display: block;
+        width: 750px;
+    }
+
+    #div-portifolio-content img{
+        width: 750px;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    #certificacoes .container{
+        width: 750px;
+        margin: auto;
+    }
+
+    #div-portifolio-content img:hover{
+        box-shadow: 0 0 1rem #474747;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+
+    #banner-header{
+        width: 100%;
+        height: 600px;
+    }
+
+
+    #img-profile img{
+        display: block;
+        float: none;
+        margin: auto;
+        width: 150px;
+        height: auto;
+        clip-path: circle(50% at 50% 50%);
+        transform: translateY(-330%);
+    }
+
+    #div-principal{
+        transform: translateY(-50%);
+        width: 90%;
+        text-align: center;
+        overflow: visible;
+        margin-top: 3rem;
+        padding-top: 2rem;
+    }
+
+    #my-title{
+        font-size: 1.07rem;
+    }
+
+    #contact{
+        text-align: justify;
+        font-size: 0.9rem;
+    }
+
+    #div-info{
+        width: 90%;
+        height: 450px;
+        margin-top: 5rem;
+        margin-bottom: -12rem;
+    }
+
+    #btn-info a{
+        display: block;
+        margin-top: 0;
+    }
+
+    .div-title{
+        width: 100%;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .title{
+        font-size: 1.8rem;
+    }
+
+    #education .container{
+        width: 90%;
+        margin: auto;
+    }
+
+    #skills .container{
+        width: 90%;
+        margin: auto;
+    }
+
+    #div-skills-content{
+        display: block;
+        width: 100%;
+    }
+
+    .skills-content{
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        margin-top: -1rem;
+    }
+
+    #portifolio .container{
+        width: 90%;
+        margin: auto;
+    }
+
+    #div-portifolio-content{
+        display: block;
+        width: 100%;
+    }
+
+    #div-portifolio-content img{
+        width: 100%;
+        height: auto;
+    }
+
+    #certificacoes .container{
+        width: 90%;
+        margin: auto;
+        font-size: 1rem;
+    }
+
+    .certificado{
+        font-size: 1rem;
+        text-align: justify;
+        padding: 1rem;
+    }
+
 }
